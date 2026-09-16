@@ -1,0 +1,19 @@
+{
+  "name": "digital-clock",
+  "version": "1.0.0",
+  "description": "Digital Clock with Multi-Timezone Support",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server -p 8888 -c-1",
+    "start": "npx http-server -p 8888"
+  },
+  "keywords": [
+    "clock",
+    "timezone",
+    "time",
+    "digital",
+    "world-time"
+  ],
+  "author": "davidsmith24u-blip",
+  "license": "Apache-2.0"
+}
