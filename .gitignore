@@ -1,25 +1,38 @@
-# CakePHP 3
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
 
-/vendor/*
-/config/app.php
+# Testing
+/coverage
 
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
+# Production
+/build
+/dist
 
-/logs/*
-!/logs/empty
+# Misc
+.DS_Store
+.env
+.env.local
+.env.*.local
 
-# CakePHP 2
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Vercel
+.vercel/
