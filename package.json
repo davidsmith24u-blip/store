@@ -1,0 +1,34 @@
+{
+  "name": "sms-email-service",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SMS and email delivery API built on Express, Twilio and SendGrid",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test",
+    "test:watch": "node --test --watch"
+  },
+  "keywords": [
+    "sms",
+    "email",
+    "twilio",
+    "sendgrid",
+    "notifications",
+    "express"
+  ],
+  "author": "davidsmith24u-blip",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "twilio": "^5.4.0"
+  }
+}
